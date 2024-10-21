@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: #111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14%;
+}
+.message{
+    text-align: center;
+    max-width: 300px;
+}
+h1{
+    margin: 20px 0;
+    font-size: 50px;
+}
+.content{
+    text-align: left;
+}
+form{
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+}
+input{
+    color: white;
+    border: none;
+    font-size: 16px;
+    background-color: transparent;
+    outline: none;
+    border-bottom: 2px solid grey;
+    width: 100%;
+    padding: 6px;
+}
+textarea{
+    color: white;
+    font-size: 16px;
+    padding: 6px;
+    width: 100%;
+    height: 80px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid grey;
+    outline: none;
+    resize: none;
+}
+.btn{
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+    background-color: rgb(80, 210, 160);
+    cursor: pointer;
+}
+.info{
+    margin: 60px 0;
+}
+
+h2{
+    font-size: 20px;
+    color: rgb(30, 150, 120);
+    margin-bottom: 10px;
+}
+.info p{
+    margin: 8px 0;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 28px;
+    font-size: 20px;
+    padding: 10px 0;
+}
+i{
+    cursor: pointer;
+}
+
+@media(max-width: 800px){
+    body{
+        flex-direction: column;
+        gap: 0;
+    }
+    .info{
+        margin: 20px;
+    }
+    .message{
+        margin-top: 180px;
+    }
+}
