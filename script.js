@@ -85,7 +85,7 @@ input.addEventListener('change', (e) => {
 Message.scrollTop = Message.scrollHeight - Message.clientHeight;
 
 // google api
-const apiKey = 'AIzaSyCKqymDA3demI5CesFhYndM0q-BbDQT7T8';
+const apiKey = 'Your API Key';
  // Replace with your actual API key
 
  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`;
